@@ -211,4 +211,6 @@
       rgba(10, 12, 16, 0.99) 85%
     );
   }
- 
+  html {
+    scroll-behavior: smooth; /* Implementação para transição suave na rolagem de página  */
+}
