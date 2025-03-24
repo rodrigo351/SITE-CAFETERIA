@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>cafeteria</title>
+  </head>
+  <body>
+    <div class="caixa-video">
+      <video src="videos/coffe.mp4" loop muted autoplay></video>
+      <div class="mascara-global"></div>
+    </div>
+
+    <header class="header">
+      <section>
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="logo-cafeteria" />
+        </a>
+
+        <nav>
+          <a href="#">home</a>
+          <a href="#sobre">sobre</a>
+          <a href="#" onclick ="mostrarmodal()"> endereço</a>
+        </nav>
+      </section>
+    </header>
+
+    <section class="caixa-principal">
+      <div>
+        <h3>melhor cafe da regiao</h3>
+        <p>
+          O café perfeito para o seu dia começar bem, com sabores especiais e delícias fresquinhas esperando por você. Aqui o aroma é de café, mas o sabor é de aconchego. Do grão à xícara, proporcionamos a melhor experiência para quem ama café. Uma pausa gostosa, cheia de carinho e sabor, porque você merece momentos especiais..
+        </p>
+        <a class="botao" href="#">pegue o seu agora</a>
+      </div>
+    </section>
+
+    <section class="caixa-sobre" id="sobre">
+      <h2 class="titulo"><span>sobre</span> Nós</h2>
+      <div class="container">
+        <div class="imagem-sobre">
+          <img src="img/about-img.jpeg" alt="" />
+        </div>
+        <div class="sobre-texto">
+          <h3>O que faz o nosso café especial</h3>
+          <p>
+            Nosso café é especial porque cada xícara é preparada com grãos selecionados, um processo artesanal e muito carinho. Da colheita ao seu paladar, garantimos qualidade, frescor e um sabor inconfundível. Mais do que café, entregamos experiências únicas para tornar o seu dia ainda mais especial.
+          </p>
+          <p>Cada gole do nosso café é um convite para desacelerar e apreciar o momento. Feito com grãos selecionados e um toque de paixão, garantimos um sabor único que desperta os sentidos e aquece a alma.</p>
+          
+          <a class="botao">saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal">
+      <h3 class="titulo"><span>nosso</span> Endereço</h3>
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24386.80350270909!2d-49.63003202577887!3d-21.806386472834248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e1!3m2!1spt-PT!2sbr!4v1741198373499!5m2!1spt-PT!2sbr"
+      width="600"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    
+    </div>
+
+    <div class="mascara-local"onclick=esconder()></div>
+    <script  src="script.js"></script>
+  </body>
+</html>
